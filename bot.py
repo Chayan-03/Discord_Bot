@@ -16,7 +16,7 @@ async def on_ready():
 async def post_daily_contests():
     channel = bot.get_channel(CHANNEL_ID)
     contests = await get_upcoming_contests()
-
+    
     if not contests:
         await channel.send("❌ No upcoming contests found in the next 24 hours.")
         return
@@ -42,8 +42,9 @@ async def post_daily_contests():
                 f"🔗 [**Click here to register**]({link})"
             ),
             color=discord.Color.blurple()  # You can use Color.red(), .green(), etc.
+            
         )
-
+        
         await channel.send(embed=embed)
 
 bot.run(DISCORD_TOKEN)
