@@ -141,7 +141,4 @@ top        # Live process monitor
 
 ---
 
-## 👤 Author
 
-**Your Name**  
-GitHub: [@your-username](https://github.com/your-username)
