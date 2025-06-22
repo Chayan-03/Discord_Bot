@@ -137,9 +137,7 @@ top        # Live process monitor
 
 ---
 
-## 🧾 License
 
-MIT License
 
 ---
 
